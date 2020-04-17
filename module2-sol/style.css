@@ -1,0 +1,55 @@
+	*{
+		box-sizing: border-box;
+	}
+	h2{
+        text-align: right;
+	}
+	h1{
+		text-align: center;
+	    margin-bottom: 50px;
+	}
+	@media(min-width:992px){
+	.wat{
+		border:1px solid black;
+		margin: 25px;
+		padding: 5px;
+		width:25%;
+		height: 250px;
+		background-color: lightgrey;
+	    float: left;
+	    overflow: auto;
+	}
+	
+	#was{
+		margin-left: 70px;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.wat{
+	     border:1px solid black;
+		margin: 50px;
+		padding: 5px;
+		width:33.33%;
+		height: 250px;
+		background-color: lightgrey;
+	    float: left;
+	    overflow: auto;	
+	}
+	#s{
+		clear:both;
+		width:75%;
+	}
+}
+@media(min-width: 1px)and (max-width: 767px){
+	
+	*{
+		clear: both;
+		}
+		.wat{
+	     border:1px solid black;
+		background-color: lightgrey;
+		margin-bottom: 50px;
+	    overflow: auto;
+	    
+	}
+}
